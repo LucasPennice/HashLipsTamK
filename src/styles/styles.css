@@ -12,7 +12,7 @@
 }
 
 .appdiv {
-	background-color: #ec8993;
+	background-color: black;
 	overflow-y: scroll;
 	height: 100vh;
 }
@@ -25,7 +25,7 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	background-color: #ec8993;
+	/* background-color: #ec8993; */
 	color: #fdfd96;
 	padding: clamp(0.2rem, 2vw, 2rem) clamp(0.4rem, 4vw, 5rem);
 }
@@ -71,7 +71,7 @@
 }
 
 .navBar .menu .openMenu .menuLinks:hover {
-	color: black;
+	color: #fdfd96;
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
@@ -86,7 +86,7 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	color: #fdfd96;
+	color: white;
 	font-size: 1.7rem;
 	border-radius: 50%;
 	cursor: pointer;
@@ -95,7 +95,7 @@
 }
 
 .navBar .menu .openMenu .discordIcon:hover {
-	color: black;
+	color: #fdfd96;
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
@@ -110,8 +110,8 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	color: #ec8993;
-	background-color: #fdfd96;
+	color: black;
+	background-color: white;
 	height: 1.7rem;
 	width: 1.7rem;
 	border-radius: 50%;
@@ -122,6 +122,7 @@
 
 .navBar .menu .openMenu .icons:hover {
 	color: black;
+	background-color: #fdfd96;
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
@@ -182,7 +183,7 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	color: #fdfd96;
+	color: white;
 	font-size: 1.7rem;
 	border-radius: 50%;
 	opacity: 0;
@@ -200,8 +201,8 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	color: #ec8993;
-	background-color: #fdfd96;
+	color: black;
+	background-color: white;
 	height: 1.7rem;
 	width: 1.7rem;
 	border-radius: 50%;
@@ -275,10 +276,10 @@
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	background-color: black;
-	width: 70vw;
+	width: 35vw;
 	max-width: 1250px;
 	max-height: 180px;
-	height: 10vw;
+	height: 5vw;
 }
 
 .banner .columnsContainer {
@@ -306,7 +307,7 @@
 	padding: 1rem 0.1rem;
 }
 .banner .columnsContainer .leftColumn p {
-	font-size: clamp(0.8rem, 2.5vw, 2rem);
+	font-size: clamp(0.8rem, 2.5vw, 1.5rem);
 	line-height: 40px;
 	font-weight: 300;
 	color: black;
@@ -314,10 +315,11 @@
 }
 
 .bannerText {
-	font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+	font-size: clamp(0.9rem, 2.5vw, 1rem);
+	max-width: 80vw;
 	padding: 1rem 0.1rem;
 	font-weight: 300;
-	color: black;
+	color: white;
 }
 
 .nftQuantity {
@@ -367,8 +369,8 @@
 
 .banner .columnsContainer .rightColumn #monkeyPic {
 	margin: 0 auto;
-	width: 90%;
-	height: 40vw;
+	width: 70%;
+	height: 30vw;
 	max-width: 640px;
 	max-height: 715px;
 	background-color: black;
@@ -402,7 +404,6 @@
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
-		background-color: #ec8993;
 	}
 	.banner #societyOfDerivativeApes {
 		padding-top: 2rem;
@@ -451,6 +452,8 @@
 	-webkit-box-pack: space-evenly;
 	-ms-flex-pack: space-evenly;
 	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 65%;
 	padding: clamp(20px, 6vw, 1rem) clamp(10px, 4vw, 3rem);
 }
 
@@ -634,6 +637,9 @@
 }
 
 .roadmapContainer p {
+	text-align: center;
+	max-width: 1000px;
+	font-size: clamp(1rem, 3vw, 1.5rem);
 	padding: 1rem;
 }
 
@@ -660,6 +666,7 @@
 	justify-content: center;
 	margin-bottom: 4rem;
 	gap: 1rem;
+	position: relative;
 }
 
 .roadmapContainer .roadmap .roadmapTextAndBubbles .roadmapGoal div {
@@ -676,15 +683,30 @@
 	width: 4rem;
 	border-radius: 50%;
 	background-color: #0fa3b1;
+	color: black;
+	font-size: 1.2rem;
+	z-index: 1;
+}
+
+.verticalBar {
+	position: absolute;
+	display: block;
+	width: 3px;
+	top: 3px;
+	left: 1.9rem;
+	height: 150px;
+	border-radius: 0;
 }
 
 .roadmapContainer .roadmap .roadmapTextAndBubbles .roadmapGoal p {
 	width: 30vw;
 	color: rgba(255, 255, 255, 0.781);
+	font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .roadmapContainer .roadmap .roadmapTextAndBubbles .roadmapGoal p span {
 	color: #0fa3b1;
+	font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .roadmapContainer .roadmap .monkeyPic {
@@ -706,6 +728,11 @@
 		width: 70vw;
 		height: 120vw;
 		background-color: gray;
+	}
+	.verticalBar {
+		top: 50%;
+		left: 1.9rem;
+		height: 200%;
 	}
 }
 
@@ -780,11 +807,19 @@
 
 .ourTeamContainer h1 {
 	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-weight: bold;
 	color: white;
 	padding-bottom: 1.5rem;
 }
-
+.ourTeamContainer h2 {
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	color: rgba(255, 255, 255, 0.534);
+}
 .ourTeamContainer p {
+	font-size: 1.5rem;
 	color: white;
 }
 
@@ -896,7 +931,7 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	font-size: clamp(0.5rem, 2vw, 1rem);
+	font-size: clamp(1rem, 2vw, 1.3rem);
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	align-items: flex-start;
@@ -919,11 +954,11 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	gap: 1rem;
+	gap: 2rem;
 }
 
 .pageFooter .footerIcons a {
-	font-size: clamp(1rem, 3vw, 2rem);
+	font-size: clamp(2rem, 3vw, 2rem);
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
@@ -942,6 +977,16 @@
 .pageFooter .footerIcons a:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+}
+
+@media (max-width: 770px) {
+	.pageFooter {
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.pageFooter .footerCopyright {
+		display: none;
+	}
 }
 
 @-webkit-keyframes appear {
@@ -1032,27 +1077,18 @@
 	text-align: center;
 	background-color: #080808;
 }
-@media (max-width: 770px) {
-	.smartContractAddress {
-		flex-direction: column;
-	}
-	.smartContractAddress h1 {
-		padding-bottom: 1rem;
-	}
-}
 
 .smartContractAddress h1 {
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: clamp(1rem, 2vw, 2rem) !important;
 	color: white;
-	font-size: clamp(0.5rem, 2vw, 1rem);
 	font-weight: 500;
 	letter-spacing: 1px;
 	padding-right: 1rem;
 }
 
 .smartContractAddress a {
-	font-size: clamp(0.8rem, 2vw, 1rem);
+	font-size: clamp(0.9rem, 2vw, 2rem);
 	color: #fdfd96;
 	text-transform: none;
 	cursor: pointer;
@@ -1063,5 +1099,16 @@
 .smartContractAddress a:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+}
+
+@media (max-width: 770px) {
+	.smartContractAddress {
+		flex-direction: column;
+	}
+	.smartContractAddress h1 {
+		padding-bottom: 1rem;
+	}
+	.smartContractAddress a {
+	}
 }
 /*# sourceMappingURL=styles.css.map */

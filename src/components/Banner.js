@@ -3,10 +3,10 @@ export default ({ banner, bannerImages, children }) => {
 	const { bannerImg, bigImage, animatedImage } = bannerImages;
 
 	const styleArrayBanner = {
-		background: bannerImg === '' ? '$black' : `url('${bannerImg}')`,
+		background: bannerImg === '' ? '#1d3557' : `url('${bannerImg}')`,
 	};
 	const styleArrayBigImg = {
-		background: bigImage === '' ? '$black' : `url('${bigImage}')`,
+		background: bigImage === '' ? '#1d3557' : `url('${bigImage}')`,
 	};
 	const styleArrayAnimatedImg = {
 		background: animatedImage === '' ? 'gray' : `url('${animatedImage}')`,

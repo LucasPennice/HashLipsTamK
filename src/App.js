@@ -284,7 +284,7 @@ function App() {
 									</s.TextDescription>
 									<s.SpacerSmall />
 									<button
-										class="connectButton"
+										className="connectButton"
 										onClick={(e) => {
 											e.preventDefault();
 											dispatch(connect());

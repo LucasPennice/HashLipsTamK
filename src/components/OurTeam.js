@@ -36,7 +36,7 @@ export default ({ teamArray, ourTeamSubtitle }) => {
 	return (
 		<div className="ourTeamContainer" id="ourTeam">
 			<h1>Our Team</h1>
-			<p>{ourTeamSubtitle}</p>
+			<h2>{ourTeamSubtitle}</h2>
 			<div className="monkeyContainer">{renderTeamMembers(teamArray)}</div>
 		</div>
 	);

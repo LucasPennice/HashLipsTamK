@@ -83,7 +83,7 @@ export const teamArray = [
 			{ href: '1', Icon: <SiLinkedin /> },
 			{ href: '2', Icon: <SiInstagram /> },
 		],
-		picture: '1',
+		picture: '',
 	},
 	{
 		title: 'Engineer',
@@ -92,7 +92,7 @@ export const teamArray = [
 			{ href: '1', Icon: <SiLinkedin /> },
 			{ href: '2', Icon: <SiInstagram /> },
 		],
-		picture: '2',
+		picture: '',
 	},
 	{
 		title: 'Artist',
@@ -101,7 +101,7 @@ export const teamArray = [
 			{ href: '1', Icon: <SiLinkedin /> },
 			{ href: '2', Icon: <SiInstagram /> },
 		],
-		picture: '3',
+		picture: '',
 	},
 ];
 
