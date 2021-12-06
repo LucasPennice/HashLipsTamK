@@ -24,7 +24,7 @@ export const smartContactAdress = {
 };
 
 export const menuLinks = [
-	{ href: '1', iconClass: 'menuLinks', text: 'lorem', Icon: '' },
+	{ href: '1', iconClass: 'menuLinks', text: 'Mint', Icon: '' },
 	{ href: '#roadmap', iconClass: 'menuLinks', text: 'Roadmap', Icon: '' },
 	{ href: '#ourTeam', iconClass: 'menuLinks', text: 'Team', Icon: '' },
 	{ href: '2', iconClass: 'icons', text: '', Icon: <GiSailboat /> },
@@ -79,28 +79,19 @@ export const teamArray = [
 	{
 		title: 'Lord',
 		subtitle: 'Co-Founder',
-		icons: [
-			{ href: '1', Icon: <SiLinkedin /> },
-			{ href: '2', Icon: <SiInstagram /> },
-		],
+		icons: [],
 		picture: '',
 	},
 	{
 		title: 'Engineer',
 		subtitle: 'Thinker',
-		icons: [
-			{ href: '1', Icon: <SiLinkedin /> },
-			{ href: '2', Icon: <SiInstagram /> },
-		],
+		icons: [],
 		picture: '',
 	},
 	{
 		title: 'Artist',
 		subtitle: 'Designer',
-		icons: [
-			{ href: '1', Icon: <SiLinkedin /> },
-			{ href: '2', Icon: <SiInstagram /> },
-		],
+		icons: [],
 		picture: '',
 	},
 ];

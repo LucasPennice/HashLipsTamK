@@ -27,7 +27,7 @@
 	flex-direction: column;
 	/* background-color: #ec8993; */
 	color: #fdfd96;
-	padding: clamp(0.2rem, 2vw, 2rem) clamp(0.4rem, 4vw, 5rem);
+	padding: clamp(0.2rem, 1vw, 2rem) clamp(0.4rem, 2vw, 5rem);
 }
 
 .navBar .menu {
@@ -45,7 +45,7 @@
 .navBar .menu .logo {
 	cursor: default;
 	font-family: 'Fredoka One', cursive;
-	font-size: clamp(3rem, 5vw, 7rem);
+	font-size: clamp(3rem, 1vw, 7rem);
 	text-shadow: black clamp(5px, 0.5vw, 8px) clamp(5px, 0.5vw, 8px);
 	color: #fdfd96;
 }
@@ -266,15 +266,15 @@
 	font-family: 'Space Grotesk', sans-serif;
 	margin-bottom: 5rem;
 	min-height: calc(
-		100vh - clamp(0.4rem, 4vw, 5rem) - clamp(0.4rem, 4vw, 5rem) -
-			clamp(3rem, 5vw, 7rem)
+		100vh - clamp(0.2rem, 1vw, 2rem) - clamp(0.2rem, 1vw, 2rem) -
+			clamp(3rem, 1vw, 7rem)
 	);
 }
 
 .banner #societyOfDerivativeApes {
 	margin-left: 2rem;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
 	background-color: black;
 	width: 35vw;
 	max-width: 1250px;
@@ -307,15 +307,15 @@
 	padding: 1rem 0.1rem;
 }
 .banner .columnsContainer .leftColumn p {
-	font-size: clamp(0.8rem, 2.5vw, 1.5rem);
-	line-height: 40px;
+	font-size: clamp(0.8rem, 1vw, 1.5rem);
+	line-height: 20px;
 	font-weight: 300;
 	color: black;
 	text-shadow: 2px 2px 4px black;
 }
 
 .bannerText {
-	font-size: clamp(0.9rem, 2.5vw, 1rem);
+	font-size: clamp(0.5rem, 0.8vw, 1rem);
 	max-width: 80vw;
 	padding: 1rem 0.1rem;
 	font-weight: 300;
@@ -331,7 +331,7 @@
 }
 
 .banner .columnsContainer .leftColumn p:last-of-type {
-	padding-bottom: clamp(5px, 2vw, 15px);
+	padding-bottom: clamp(5px, 0.5vw, 15px);
 }
 
 .banner .columnsContainer .leftColumn button,
@@ -345,7 +345,7 @@
 	display: inline-block;
 	text-shadow: 2px 2px 4px black;
 	font-size: clamp(12px, 3vw, 20px);
-	margin: 1rem 2px;
+	margin: 0.3rem 2px;
 	cursor: pointer;
 	cursor: pointer;
 	-webkit-transition: 0.2s ease-in-out;
@@ -369,8 +369,8 @@
 
 .banner .columnsContainer .rightColumn #monkeyPic {
 	margin: 0 auto;
-	width: 70%;
-	height: 30vw;
+	width: 55%;
+	height: 25vw;
 	max-width: 640px;
 	max-height: 715px;
 	background-color: black;
@@ -384,9 +384,9 @@
 	animation: wiggle 3s infinite;
 	background-color: #6e6e6e;
 	max-width: 640px;
-	width: 70%;
+	width: 60%;
 	max-height: 230px;
-	height: 25%;
+	height: 20%;
 }
 
 @media (max-width: 770px) {
@@ -692,7 +692,7 @@
 	position: absolute;
 	display: block;
 	width: 3px;
-	top: 3px;
+	top: 20px;
 	left: 1.9rem;
 	height: 150px;
 	border-radius: 0;

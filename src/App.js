@@ -379,7 +379,7 @@ function App() {
 			/>
 			<OurTeam teamArray={teamArray} ourTeamSubtitle={ourTeamSubtitle} />
 			<div className="smartContractAddress">
-				<h1>verified smart contact adress:</h1>
+				<h1>Verified Smart Contract Address:</h1>
 				<a href={smartContactAdress.href}>{smartContactAdress.text}</a>
 			</div>
 			<Footer
