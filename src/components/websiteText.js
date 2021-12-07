@@ -2,7 +2,12 @@ import { SiLinkedin, SiInstagram, SiYoutube } from 'react-icons/si';
 import { GiSailboat } from 'react-icons/gi';
 import { SiDiscord, SiTwitter } from 'react-icons/si';
 
-export const bannerImages = { bannerImg: '', bigImage: '', animatedImage: '' };
+export const bannerImages = {
+	bannerImg: '',
+	bigImage: '',
+	animatedImage: '',
+	leftColumn: 'https://ik.imagekit.io/bayc/assets/bayc-mutant-hero.jpg',
+};
 export const buyAnApeText = {
 	titleText: 'Title',
 	middleText: 'Middle',

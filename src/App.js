@@ -217,7 +217,7 @@ function App() {
 		getData();
 	}, [blockchain.account]);
 
-	const logoText = 'HashLips';
+	const logoText = 'Logo';
 	const banner = {
 		buttonText: 'Connect',
 		nftQuantity: `${data.totalSupply} / ${CONFIG.MAX_SUPPLY}`,
